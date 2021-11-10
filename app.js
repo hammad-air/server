@@ -26,7 +26,6 @@ const getUser = () => {
     (userID.value == "") ? getUsers() : getUserFromDB(userID.value);
     userID.value = "";
 }
-
 const getUserFromDB = userID => {
     axios.get(`https://hello-world-crud.herokuapp.com/user/${userID}`)
         .then(response => {

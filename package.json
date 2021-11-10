@@ -1,0 +1,16 @@
+{
+  "name": "server-curd-main",
+  "version": "1.0.0",
+  "description": "Basic Server Curd Operation to  perform the add, delete and edit the user by using Node.js,axois and express.js",
+  "main": "app.js",
+  "scripts": {
+    "start": "npm nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.15"
+  }
+}

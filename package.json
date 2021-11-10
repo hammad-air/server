@@ -4,7 +4,7 @@
   "description": "Basic Server Curd Operation to  perform the add, delete and edit the user by using Node.js,axois and express.js",
   "main": "app.js",
   "scripts": {
-    "start": "npm nodemon",
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
